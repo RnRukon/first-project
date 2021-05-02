@@ -1,0 +1,604 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header{
+	background-image:url(../img/background-img.png);
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-attachment: fixed;
+	position: relative;
+	z-index: 12;
+}
+
+header:before{
+	position: absolute;
+	z-index: -12;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background-color: #333b45;
+	opacity: .95;
+}
+
+.logo img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.logo img:hover{
+	border: 5px solid yellow;
+	
+}
+
+.nav{
+	height: 100px;
+ 	width: auto;
+ 	justify-content: space-between;
+ 	display: flex;
+ 	align-items: center;
+ 	margin: auto;
+ }
+
+
+
+.menu li{
+	display: inline-block;
+	list-style-type: none;
+
+	 
+}
+.menu{
+	margin: auto;
+	display: flex;
+	align-items: center;
+
+}
+.menu a{
+	text-decoration: none;
+	padding: 10px 1vw;
+	margin: 0px 10px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.menu .home{
+	background-color: red;
+	border-radius: 20px;
+
+}
+
+
+
+.menu a:hover{
+	color: black;
+	text-decoration: none;
+
+
+}
+
+
+
+.section-2{
+	display: flex;
+
+}
+.header-img img{
+	height:600px;
+	width: auto;
+	margin-top: 1vw;
+	margin-left:2VW;
+	border-radius: 50%;
+}
+
+.header-content{
+    margin-top: 5%;
+	margin-left:27vw;
+	font-size: 20px;
+	color: white;
+	height: 350px;
+	width: 600px;
+	border: 1px solid black;
+	display: block;
+	border-style: none;
+	
+
+
+
+}
+.header-content h1{
+	padding: 30px 0px;
+}
+.header-content p{
+	padding: 30px 0px;
+}
+
+
+.main-feture{
+
+	padding-top: 100px; 
+}
+
+
+.feture-1{
+	display: flex;
+	height: 500px;
+	width: 1200px;
+	margin: auto;
+}
+
+.feture-img img{
+	height: 500px;
+	width: auto;
+}
+
+.img-content h2{
+	font-size: 40px;
+}
+
+.img-content h5{
+	color: red;
+	padding: 30px 0px;
+	font-size: 25px;
+
+}
+
+.img-content2 h2{
+	font-size: 40px;
+
+}
+.img-content .p2{
+	font-size: 20px;
+	border: 1px solid red;
+	width: 400px;
+	border-style: none;
+}
+.img-content .red-button{
+	height: 50px;
+	width: 200px;
+	background-color: red;
+	border-radius: 10px;
+	border-style: none;
+    transition: 1s;
+}
+
+.img-content .red-button:hover{
+	background-color: orange;
+	transition: 1s;
+}
+.img-content .red-button a{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	display: block;
+	padding: 16px 0px;
+	transition: 1s;
+}
+
+.img-content .red-button a:hover{
+	color: green;
+	transition: 1s;
+}
+.img-content2 .p11{
+	color: green;
+	padding: 30px 0px;
+	font-size: 25px;
+}
+
+
+.img-content2 .p2{
+	font-size: 20px;
+	border: 1px solid red;
+	width: 400px;
+	border-style: none;
+}
+
+.img-content2 .green-button{
+	height: 50px;
+	width: 200px;
+	background-color: green;
+	border-radius: 10px;
+	border-style: none; 
+	transition: 1s;
+
+}
+.img-content2 .green-button:hover{
+	background-color: #67D8EF;
+	transition: 1s;
+	
+}
+.img-content2 .green-button a{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	display: block;
+	padding: 16px 0px;
+	transition: 1s;
+}
+.img-content2 .green-button a:hover{
+	color: red;
+	transition: 1s;
+}
+
+
+.feture-2{
+	display: flex;
+	height: 500px;
+	 width: 1200px;
+	margin: auto;
+}
+
+.feture-2 .feture-img img{
+	height: 300px;
+	width: auto;
+	margin-left: 73px;
+
+}
+
+
+.anoter-feture{
+	height: 70px;
+	background-color: #38404A;
+	display: block;
+}
+
+.anoter-feture:hover{
+    background-color: green;
+}
+
+.anoter-feture1{
+	background-color: #EDEBEB;
+	height: 600px;
+}
+
+
+
+.anoter-feture1 h1{
+	text-align: center;
+	font-size: 100px;
+	color: #66837E;
+
+
+}
+.about-making{
+	border: 1px solid red;
+	width: 700px;
+	height: 100px;
+	margin: auto;
+	font-size: 20px;
+	border-style: none;
+	color: #746F6F; 
+	
+
+}
+
+.img-l0 img{
+	height:150px;
+	width: 150px; 
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid rgba(89, 240, 177, 0.849);
+	margin-left: 20%;
+	
+}
+.img-l0 img:hover{
+	height: 160px;
+	width: 160px;
+	
+	border: 5px solid yellow;
+	overflow: hidden;
+	
+	
+	
+	
+	
+}
+
+
+.img-add{
+	border: 5px solid rgb(16, 202, 156);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+	width: 700px;
+	margin: auto;
+	background-color: wheat;
+	border-radius:  0 100px 0px;
+	
+
+
+}
+.img-add:hover{
+	color:white;
+	border-radius: 100px 0 100px;
+	border-color: violet;
+
+}
+
+
+
+.img-add p{
+	padding: 5px 0px;
+	font-size: 25px;
+	color: #746F6F; 
+	
+	
+
+}
+
+	
+
+
+.img-add .add{
+	float: right; 
+
+}
+
+
+.section-5{
+	background-color: #F2F2F2;
+}
+	
+
+
+
+.anoter-feture2{
+	display: flex;
+	border:1px solid red;
+	border-style: none;
+	width: 1000px;
+	height: 1000px;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+
+.anoter-feture2 .modern{
+	border: 1px solid red;
+	border-style: none;
+	width: 400px;
+	font-size: 20px;
+	color: #444E5D;
+}
+
+.download-button{
+	height: 50px;
+	width: 200px;
+	background-color: green;
+	border-radius: 10px;
+	border-style: none;
+	transition: 1s;
+
+
+}
+.download-button:hover{
+	background-color: #67D8EF;
+	transition: 1s;
+	
+}
+.download-button a{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	display: block;
+	padding: 16px 0px;
+	transition: 1s;
+}
+
+.download-button a:hover{
+	color: red;
+	transition: 1s;
+}
+
+.clients{
+	border: 1px solid red;
+	height: 100px;
+	width: 228px;
+	margin: auto;
+	font-size: 20px;
+	border-style:none; 	
+}
+
+
+.clients h1{
+	text-align: center;
+}
+
+
+.clients p{
+	text-align: center;
+}
+
+
+.clients-list{
+	display: flex;
+	border: 1px solid red;
+	height: 400px; 
+    width: 1500px;
+    justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	border-style:none; 
+
+}
+
+
+
+
+
+
+.section-7{
+	height: 900px;
+	justify-content: space-around;
+	background-color: #F1F1F1;
+	color: #42433E;
+
+}
+
+.pricing{
+	border: 1px solid black;
+	height: 200px;
+	width: 300px;
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+}
+
+.main-table{
+	display: flex;
+	justify-content: space-between;
+	border:1px solid red;
+	width: 1200px;
+	margin: auto;
+	border-style: none;
+	
+
+}
+
+
+.table{
+	border:3px solid #6D6E6A;
+	height: 500px;
+	width: 350px;
+	font-size: 30px;
+	text-align: center;	
+}
+
+.table button{
+	height: 50px;
+	width: 200px;
+	background-color: #1FAB5A;
+	border-radius: 10px;
+	border-style: none;
+	transition: 1s;
+}
+.table button:hover{
+	background-color: #67D8EF;
+	transition: 1s;
+	
+
+}
+.table button a{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	display: block;
+	padding: 16px 0px;
+	transition: 1s;
+
+}
+.table button a:hover{
+	color: red;
+	transition: 1s;
+}
+
+
+
+
+.section-8{
+	background-image:url(../img/background-img-02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
+	color: white;
+	z-index: 12;
+}
+
+
+.saint-exupery{
+	border:1px solid black;
+    border-style: none;
+	width: 250px;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	
+}
+.saint-exupery img{
+	height: 50px;
+}
+
+
+
+.imglogo p{
+	font-size: 20px;
+	margin-top: 30px;
+	padding-left: 30px;
+	text-align: center;
+
+}
+.designer{
+	border: 1px solid black;
+	height: 300px;
+	width: 700px;
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+	border-style: none;
+}
+
+.footer{
+	background-color: #333B45;
+	height: 400px;
+	align-items: center;
+	display: flex;
+}
+
+.footer-content{
+	border: 1px solid black;
+	height: 250px;
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	color: white;
+	border-style: none;
+	
+
+}
+
+.footer-content .green-button{
+	height: 50px;
+	width: 200px;
+	background-color: green;
+	border-radius: 10px;
+	border-style: none;
+	transition: 2s;
+
+
+}
+.footer-content .green-button:hover{
+    background-color: #67D8EF;
+    transition: 2s;
+    
+}
+
+.footer-content a{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	display: block;
+	text-decoration: none;
+	transition: 1s;	
+	padding: 16px 0px;
+}
+
+.footer-content a:hover{
+    color: red;
+    transition: 1s;
+}
